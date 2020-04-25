@@ -1,0 +1,184 @@
+﻿<html>
+<head>
+    <title>Events</title>
+    <meta charset="utf-8" />
+    <style>
+        button {
+            box-shadow: 1px 1px 20px rgba(255,165,0,0.3);
+            border-radius: 30px;
+            background-color: darkorange;
+            border: none;
+            color: white;
+            padding: 0px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 0px 0px;
+            cursor: pointer;
+        }
+            .content {
+            background-color: lightgrey;
+        }
+
+        th, td {
+            border-bottom: 1px solid darkorange;
+        }
+
+        table {
+            width: 40%;
+        }
+
+        h5 {
+            text-align: center;
+            column-width:80%;
+        }
+
+        * {
+            font-family: Arial;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .topnav {
+            position: relative;
+            overflow: hidden;
+            background-color: black;
+        }
+
+            .topnav a {
+                float: left;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .topnav a.active {
+                    background-color: darkorange;
+                    color: black;
+                }
+
+        .topnav-rightcentered a {
+            float: none;
+            position: absolute;
+            top: 50%;
+            left: 67%;
+            transform: translate(-50%, -50%);
+        }
+
+        .topnav-leftcentered a {
+            float: none;
+            position: absolute;
+            top: 50%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+        }
+
+        .topnav-right {
+            float: right;
+        }
+
+        .topnav-left {
+            float: left;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        div, h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1><br />MyEvent</h1>
+    <div class="topnav">
+        <div class="topnav-left">
+            <a href="" class="active">About Us</a>
+        </div>
+        <div class="topnav-leftcentered">
+            <a href="events.html" class="active">Events</a>
+        </div>
+        <div class="topnav-rightcentered">
+            <a href="regAppo.html" class="active">Registration & Appointment</a>
+        </div>
+        <div class="topnav-right">
+            <a href="" class="active">login/Sign up</a>
+        </div>
+    </div>
+    <div class="content">
+        
+        <center>
+            <table>
+
+                <tr>
+                    <th><br><br><h2>About Us</h2><br><br></th>
+                </tr>
+                <tr>
+                    <th>
+                        <h5 style="font-size:20px;">
+                            MyEvent is a C2C website which was created in order to assist people who are in need of Event
+                            organizers as well as Event organizers who are searching for customers. We provide you with our most
+                            trustable and reliable Vendors that organizes events according to your demand.<br /><br />
+                        </h5>
+                    </th>
+                </tr>
+                <tr>
+                    <th><br><br><h2>Our services</h2><br><br></th>
+                <tr>
+                    <th>
+                        <ul>
+                            <li>Wedding</li>
+                            <li>Workshop</li>
+                            <li>Gala</li>
+                            <li>Seminar</li>
+                            <li>Party</li>
+                            <li>Tradeshow</li>
+                            <li>Social Events</li>
+                            <li>Reunion</li>
+
+                        </ul>
+                        <br />  <button onclick="location.href = 'events.html';"><h5>Events</h5></button>
+                    </th>
+                </tr>
+                <tr>
+                    <th><br><br><h2>Thanks to our Sponsors</h2><br><br></th>
+                </tr>
+                <tr>
+                    <table>
+                        <tr>
+                            <th><img width="150" height="150" src="amazon.jpg" alt="Amazon"></th>
+                            <th><img width="150" height="150" src="google.jpg" alt="Google"></th>
+                            <th><img width="150" height="150" src="tesla.jpg" alt="Tesla"></th>
+                        </tr>
+                        <tr>
+                            <th><img width="150" height="150" src="Linked in.png" alt="Linked In"></th>>
+                            <th><img width="150" height="150" src="twitter.jpg" alt="Twitter"></th>
+                            <th></th>
+                        </tr>
+                    </table>
+
+                </tr>
+                <tr>
+                    <th><br><br><h2>For more info, contact us at : admin@myevent.com</h2><br><br></th>
+                    <th></th>
+                </tr>
+
+
+
+
+            </table>
+        </center>
+
+
+
+    </div>
+</body>
+</html>
