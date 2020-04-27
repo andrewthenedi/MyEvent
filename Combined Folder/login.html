@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+<TITLE>Login and registration</TITLE>
+</HEAD>
+<BODY>
+<div class="container">
+	<form method="post" action = "login.asp">
+	<h1>Sign up</h1>
+    <label for="name"><b>given name</b></label>
+    <input type="text" placeholder="Enter Username" name="name" required>
+    <br>
+
+    <label for="surname"><b>surname</b></label>
+    <input type="text" placeholder="Enter surname" name="surname" required>
+<br>    
+    <label for="cnum"><b>contact number</b></label>
+    <input type="number" placeholder="1234" name="cnum" required>
+    <br>
+    <label for="email"><b>email address</b></label>
+    <input type="email" placeholder="john@mail.com" name="email" required>
+<br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+<br>
+    <button type="submit">submit</button>
+    <br>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    </form>
+  </div>
+
+  <div class="container2">
+  	<form method="post" action="signup.asp">
+  	<h1>login</h1>
+
+  	<label for="email"><b>email address</b></label>
+    <input type="email" placeholder="john@mail.com" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <button type="submit">Login</button>
+    </form>
+
+  </div>
+  </div>
+</form>
+</div>
+</BODY>
+</HTML>
