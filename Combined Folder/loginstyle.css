@@ -1,0 +1,16 @@
+*{
+	font-family:montserrat, open-sans;
+}
+table, th, td {
+  
+  border-collapse: collapse;
+}
+a{
+	font-size:20px;
+}
+.header{
+	background-color:#eadeff;
+}
+.content{
+	background-color:#c5a3ff;
+}

@@ -1,50 +1,96 @@
 <HTML>
 <HEAD>
 <TITLE>Login and registration</TITLE>
+<link rel="stylesheet" type="text/css" href="loginstyle.css">
 </HEAD>
 <BODY>
-<div class="container">
-	<form method="post" action = "login.asp">
-	<h1>Sign up</h1>
-    <label for="name"><b>given name</b></label>
-    <input type="text" placeholder="Enter Username" name="name" required>
-    <br>
+  <center class="header">
 
-    <label for="surname"><b>surname</b></label>
-    <input type="text" placeholder="Enter surname" name="surname" required>
-<br>    
-    <label for="cnum"><b>contact number</b></label>
-    <input type="number" placeholder="1234" name="cnum" required>
-    <br>
-    <label for="email"><b>email address</b></label>
-    <input type="email" placeholder="john@mail.com" name="email" required>
-<br>
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-<br>
-    <button type="submit">submit</button>
-    <br>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-    </form>
-  </div>
+<h1>MyEvent</h1>
 
-  <div class="container2">
-  	<form method="post" action="signup.asp">
-  	<h1>login</h1>
+<table style="width:70%">
+  <tr>
+    <th><a href="">About Us</a></th>
+    <th><a href="">Events</a></th>
+    <th><a href="">Registration and Appointment</a></th>
+  <th><a href="">Login / Signup</a></th>
+  </tr>
+</table>
+</center>
+    <center class="content">
+        <form method="post" action="signup.asp">
+            <table style="width:70%">
 
-  	<label for="email"><b>email address</b></label>
-    <input type="email" placeholder="john@mail.com" name="email" required>
+                <tr>
+                    <h2 style="text-align: center;">Login and signup</h2>
+                </tr>
+                <tr>
+                    <th><h2 style="text-align: center;">Sign up</h2></th>
+                </tr>
+                <tr>
+                    <th><label for="name"><b>given name</b></label></th>
+                    <th><input type="text" placeholder="Enter Username" name="name" required></th>
+                </tr>
+                <tr>
+                    <th><label for="surname"><b>surname</b></label></th>
+                    <th><input type="text" placeholder="Enter surname" name="surname" required></th>
+                </tr>
+                <tr>
+                    <th><label for="cnum"><b>contact number</b></label></th>
+                    <th><input type="number" placeholder="1234" name="cnum" required></th>
+                </tr>
+                <tr>
+                    <th><label for="email"><b>email address</b></label></th>
+                    <th><input type="email" placeholder="john@mail.com" name="email" required></th>
+                </tr>
+                <tr>
+                    <th><label for="psw"><b>Password</b></label></th>
+                    <th><input type="password" placeholder="Enter Password" name="psw" required></th>
+                </tr>
+                <tr>
+                    <th><br>
+                    <th>
+                    </th>
+                <tr>
+                    <th><button type="submit">submit</button></th>
+                    <th><input type="checkbox" checked="checked" name="remember"> Remember me
+                    <th>
+                    </th>
+                <tr>
+                    <th><br>
+                    <th>
+                    </th>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-    <button type="submit">Login</button>
-    </form>
+            </table>
 
-  </div>
-  </div>
-</form>
+        </form>
+
+        <form method="post" action="login.asp">
+            <table style="width:70%">
+
+                <tr>
+                    <th><h2 style="text-align: center;">login</h2>
+                    <th>
+                    </th>
+
+                <tr>
+                    <th><label for="emailad"><b>email address</b></label></th>
+                    <th><input type="email" placeholder="john@mail.com" name="emailad" required></th>
+                </tr>
+                <tr>
+                    <th><label for="pswd"><b>Password</b></label></th>
+                    <th><input type="password" placeholder="Enter Password" name="pswd" required></th>
+                </tr>
+                <tr>
+                    <th><input type="submit" value="login"></th>
+                <tr>
+
+
+            </table>
+        </form>
+
+    </center>
+    
 </div>
 </BODY>
 </HTML>
