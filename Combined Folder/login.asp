@@ -18,5 +18,6 @@
  Response.Write("<h2>login succesful "+ em +"</h2>");
  %>
     <h1>Login succesful</h1>
+    <a href="About.html">click here to ge=o back</a>
 </body>
 </html>
