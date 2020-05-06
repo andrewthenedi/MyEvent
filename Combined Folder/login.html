@@ -4,17 +4,23 @@
 <link rel="stylesheet" type="text/css" href="loginstyle.css">
 
 <style >
+
+    button {
+            box-shadow: 1px 1px 20px rgba(255,165,0,0.3);
+            border-radius: 30px;
+            background-color: darkorange;
+            border: none;
+            color: white;
+            padding: 0px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 0px 0px;
+            cursor: pointer;
+        }
 *{
     font-family:montserrat, open-sans;
-}
-table, th, td {
-  
-  border-collapse: collapse;
-  width: 70%;
-}
- th, td {
-  
-  border-collapse: collapse;
 }
 a{
     font-size:20px;
@@ -25,21 +31,101 @@ a{
 .content{
     background-color:#c5a3ff;
 }
+
+.content {
+            background-color: lightgrey;
+        }
+
+        th, td {
+            border-bottom: 1px solid darkorange;
+        }
+
+        table {
+            width: 40%;
+        }
+
+        h5 {
+            text-align: center;
+            column-width:80%;
+        }
+
+        * {
+            font-family: Arial;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .topnav {
+            position: relative;
+            overflow: hidden;
+            background-color: black;
+        }
+
+            .topnav a {
+                float: left;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .topnav a.active {
+                    background-color: darkorange;
+                    color: black;
+                }
+
+        .topnav-rightcentered a {
+            float: none;
+            position: absolute;
+            top: 50%;
+            left: 67%;
+            transform: translate(-50%, -50%);
+        }
+
+        .topnav-leftcentered a {
+            float: none;
+            position: absolute;
+            top: 50%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+        }
+
+        .topnav-right {
+            float: right;
+        }
+
+        .topnav-left {
+            float: left;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
 </style>
 </HEAD>
 <BODY>
   <center class="header">
 
-<h1>MyEvent</h1>
-
-<table>
-  <tr>
-    <th><a href="About.html">About Us</a></th>
-    <th><a href="events.html">Events</a></th>
-    <th><a href="regAppo.html">Registration and Appointment</a></th>
-  <th><a href="login.html">Login / Signup</a></th>
-  </tr>
-</table>
+<h1><br />MyEvent</h1>
+    <div class="topnav">
+        <div class="topnav-left">
+            <a href="About.html" class="active">About Us</a>
+        </div>
+        <div class="topnav-leftcentered">
+            <a href="events.html" class="active">Events</a>
+        </div>
+        <div class="topnav-rightcentered">
+            <a href="regAppo.html" class="active">Registration & Appointment</a>
+        </div>
+        <div class="topnav-right">
+            <a href="login.html" class="active">login/Sign up</a>
+        </div>
+    </div>
 </center>
     <center class="content">
         <form method="post" action="signup.asp">
@@ -50,6 +136,7 @@ a{
                 </tr>
                 <tr>
                     <th><h2 style="text-align: center;">Sign up</h2></th>
+                    <th></th>
                 </tr>
                 <tr>
                     <th><label for="name"><b>given name</b></label></th>
@@ -106,7 +193,12 @@ a{
                     <th><input type="password" placeholder="Enter Password" name="pswd" required></th>
                 </tr>
                 <tr>
-                    <th><input type="submit" value="login"></th>
+                    <th><br></th>
+                    <th><br></th>
+                </tr>
+                <tr>
+                    
+                    <th><button type="submit">submit</button></th>
                 <tr>
 
 
